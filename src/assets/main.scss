@@ -1,0 +1,37 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../assets/stylesheet/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@font-face {
+  font-family: "HanYi-85w";
+  src: local("HanYi-85w"), url("../../material/HanYi-85w.woff") format("woff");
+}
+
+* {
+    font-family: 'HanYi-85w';
+  }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0dbdb;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #dba39a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cf9b93;
+}
